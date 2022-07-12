@@ -5,7 +5,7 @@ import { MdOutlineScience } from "react-icons/md";
 import { TbMathSymbols } from "react-icons/tb";
 import { GiPlantsAndAnimals } from "react-icons/gi";
 import CTA from "./CTA";
-import Footer from "./Footer";
+
 const HomePage = () => {
   return (
     <>
@@ -52,7 +52,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      <div className=" my-40"></div>
     </>
   );
 };
